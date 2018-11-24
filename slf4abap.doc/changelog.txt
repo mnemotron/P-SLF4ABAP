@@ -1,0 +1,28 @@
+Simple Logging Facade for ABAP - Changelog
+
++ Added
+! Changed
+# Deprecated
+- Removed
+* Fixed
+
+[1.0.0] - 2018-06-21
++ add immediate flush, messages can be saved persistently immediately at the time they are thrown (the database commit has no effect on the actual process)
++ log appender popup: if the option immediate flush is set, the popup list can display messages immediately when a message is thrown and runs independently (like a console)
++ log appender application log: add tags as context
+
+[1.0.0.RC4] - 2018-06-01
++ add log appender (application log, enhanced data log, status bar, popup list)
+
+[1.0.0.RC3] - 2018-03-12
++ message logging based on several trace level (debug, fatal, error, warning, info, user)
++ assign data types (numeric, character, flat-structure) to a debug message
++ message tagging with several tags
++ import SY-Message
++ import BAPIRET messages
++ import IF_T100_MESSAGE exceptions
++ import IF_MESSAGE exceptions
++ import messages from other SLF4ABAP log
++ save log to SAP application log
++ save log to enhanced SLF4ABAP log
++ simple ABAP callstack logging
