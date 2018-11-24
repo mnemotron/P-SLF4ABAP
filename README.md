@@ -1,6 +1,6 @@
 # Simple Logging Facade for ABAP (SLF4ABAP)
 
-## Features
+## Features 
 + <b>TRACE LEVEL</b><br>
   + message logging using trace level (DEBUG, FATAL, ERROR, WARNING, INFO, USER)
 
