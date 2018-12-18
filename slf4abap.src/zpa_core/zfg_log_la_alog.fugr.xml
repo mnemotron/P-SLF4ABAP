@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Log Appender: Application Log</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZFG_LOG_LA_ALOGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZFG_LOG_LA_ALOG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZFM_LOG_LA_ALOG</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Log Appender: Application Log Asynchron Post</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>IV_LOG_OBJECT</PARAMETER>
+       <TYP>BAL_S_LOG-OBJECT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LOG_SUBOBJECT</PARAMETER>
+       <TYP>BAL_S_LOG-SUBOBJECT</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IV_LOG_KEY</PARAMETER>
+       <TYP>STRING</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>IT_LOG</PARAMETER>
+       <TYP>ZTT_LOG</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>IV_LOG_OBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Object Name (Application Code)</STEXT>
+       <INDEX> 001</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOG_SUBOBJECT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Application Log: Subobject</STEXT>
+       <INDEX> 002</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IV_LOG_KEY</PARAMETER>
+       <KIND>P</KIND>
+       <INDEX> 003</INDEX>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>IT_LOG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Log Messages</STEXT>
+       <INDEX> 004</INDEX>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
