@@ -44,25 +44,25 @@
     <item>
      <ID>S</ID>
      <KEY>P_DEBUG</KEY>
-     <ENTRY> Debug</ENTRY>
+     <ENTRY>Debug</ENTRY>
      <LENGTH>19</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>P_ERROR</KEY>
-     <ENTRY> Error</ENTRY>
+     <ENTRY>Error</ENTRY>
      <LENGTH>14</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>P_FATAL</KEY>
-     <ENTRY> Fatal</ENTRY>
+     <ENTRY>Fatal</ENTRY>
      <LENGTH>14</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>P_INFO</KEY>
-     <ENTRY> Info</ENTRY>
+     <ENTRY>Info</ENTRY>
      <LENGTH>13</LENGTH>
     </item>
     <item>
@@ -82,13 +82,13 @@
     <item>
      <ID>S</ID>
      <KEY>P_USER</KEY>
-     <ENTRY> User</ENTRY>
+     <ENTRY>User</ENTRY>
      <LENGTH>13</LENGTH>
     </item>
     <item>
      <ID>S</ID>
      <KEY>P_WARN</KEY>
-     <ENTRY> Warning</ENTRY>
+     <ENTRY>Warning</ENTRY>
      <LENGTH>16</LENGTH>
     </item>
     <item>
@@ -134,37 +134,37 @@
       <item>
        <ID>S</ID>
        <KEY>P_DEBUG</KEY>
-       <ENTRY> Debug</ENTRY>
+       <ENTRY>Debug</ENTRY>
        <LENGTH>14</LENGTH>
       </item>
       <item>
        <ID>S</ID>
        <KEY>P_ERROR</KEY>
-       <ENTRY> Error</ENTRY>
+       <ENTRY>Error</ENTRY>
        <LENGTH>14</LENGTH>
       </item>
       <item>
        <ID>S</ID>
        <KEY>P_FATAL</KEY>
-       <ENTRY> Fatal</ENTRY>
+       <ENTRY>Fatal</ENTRY>
        <LENGTH>14</LENGTH>
       </item>
       <item>
        <ID>S</ID>
        <KEY>P_INFO</KEY>
-       <ENTRY> Info</ENTRY>
+       <ENTRY>Info</ENTRY>
        <LENGTH>13</LENGTH>
       </item>
       <item>
        <ID>S</ID>
        <KEY>P_USER</KEY>
-       <ENTRY> User</ENTRY>
+       <ENTRY>User</ENTRY>
        <LENGTH>13</LENGTH>
       </item>
       <item>
        <ID>S</ID>
        <KEY>P_WARN</KEY>
-       <ENTRY> Warning</ENTRY>
+       <ENTRY>Warning</ENTRY>
        <LENGTH>16</LENGTH>
       </item>
       <item>

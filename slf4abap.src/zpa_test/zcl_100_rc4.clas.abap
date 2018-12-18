@@ -46,7 +46,7 @@ ENDMETHOD.
 METHOD do_t002_la_alog.
 
 *-- get log instance
-  DATA(lr_log) = zcl_log=>get_instance( iv_log_object = 'ZZZIBM' ).
+  DATA(lr_log) = zcl_log=>get_instance( iv_log_object = 'ZZZ' ).
 
 *-- add log appender: application log
   lr_log->add_log_appender( ir_la = NEW zcl_log_la_alog( iv_log_key = 'T002') ).
@@ -103,7 +103,7 @@ ENDMETHOD.
 METHOD do_t003_la_plog.
 
 *-- get log instance
-  DATA(lr_log) = zcl_log=>get_instance( iv_log_object = 'ZZZIBM' ).
+  DATA(lr_log) = zcl_log=>get_instance( iv_log_object = 'ZZZ' ).
 
 *-- set trace level
   lr_log->set_trace_level( iv_trace_level = zcl_log=>gc_trace_debug ).
@@ -308,7 +308,7 @@ METHOD do_t006_la_alog_i.
 *                   iv_read_config     = ABAP_FALSE
                     iv_trace_level     = ZCL_LOG=>gc_trace_debug
                     iv_immediate_flush = abap_true
-                    iv_log_object = 'ZZZIBM'
+                    iv_log_object = 'ZZZ'
 *                   iv_log_subobject   =
                ).
 
@@ -367,7 +367,7 @@ METHOD do_t007_la_dlog_i.
 *                     iv_read_config     = ABAP_FALSE
                       iv_trace_level     = zcl_log=>gc_trace_debug
                       iv_immediate_flush = abap_true
-                      iv_log_object      = 'ZZZIBM'
+                      iv_log_object      = 'ZZZ'
 *                     iv_log_subobject   =
                  ).
 
