@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TTYP" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD40V>
+    <TYPENAME>ZTT_MSG_TYPE_RNG</TYPENAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <ROWTYPE>ZST_MSG_TYPE_RNG</ROWTYPE>
+    <ROWKIND>S</ROWKIND>
+    <DATATYPE>STRU</DATATYPE>
+    <ACCESSMODE>T</ACCESSMODE>
+    <KEYDEF>D</KEYDEF>
+    <KEYKIND>N</KEYKIND>
+    <DDTEXT>Message Type Range</DDTEXT>
+    <TTYPKIND>R</TTYPKIND>
+    <RANGE_CTYP>CHAR01</RANGE_CTYP>
+    <CTDATATYPE>CHAR</CTDATATYPE>
+    <CTLENG>000001</CTLENG>
+   </DD40V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

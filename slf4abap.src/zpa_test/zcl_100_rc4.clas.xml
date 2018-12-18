@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_100_RC4</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Tests: 1.0.0.RC4</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T001_LA_STATUS_BAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T001: Log Appender - Status Bar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T002_LA_ALOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T002: Log Appender - Application Log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T003_LA_PLOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T003: Log Appender - Popup</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T004_LA_PLOG_I</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T004: Log Appender - Popup Immediate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T005_LA_STATUS_BAR_I</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T005: Log Appender - Status Bar Immediate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T006_LA_ALOG_I</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T006: Log Appender - Application Log Immediate</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_100_RC4</CLSNAME>
+     <CMPNAME>DO_T007_LA_DLOG_I</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>T007: Log Appender - Enhanced Data Log Immediate</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
